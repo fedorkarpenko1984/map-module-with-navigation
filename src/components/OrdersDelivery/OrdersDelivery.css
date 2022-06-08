@@ -1,0 +1,26 @@
+.orders-delivery {
+    display: flex;
+    border: 1px solid dimgrey;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+.table-container {
+    width: calc(50% - 1px);
+    height: 100%;
+    overflow-x: scroll;
+}
+
+.movable-border {
+    position: relative;
+    width: 2px;
+    height: 100%;
+    cursor: ew-resize;
+    background: dimgrey;
+}
+
+.map-container {
+    display: flex;
+    width: calc(50% - 1px);
+    height: 100%;
+}

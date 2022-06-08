@@ -1,0 +1,22 @@
+.orders-table-row {
+    width: 100%;
+    display: flex;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    background: dimgrey;
+}
+
+.table-row-cell {
+    box-sizing: border-box;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 3px;
+    background: white;
+}
+
+.select {
+    box-sizing: border-box;
+    height: 30px;
+    border-radius: 3px;
+    outline: none;
+}
