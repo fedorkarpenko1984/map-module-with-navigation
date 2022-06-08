@@ -16,11 +16,11 @@
 осуществляется через Yandex Geocoding и для запуска проекта в сборку нужно будет добавить
 файл 
 
-###.env.local
+.env.local
 
 с переменной 
 
-####REACT_APP_GEOCODING_SERVICE_API_KEY='ключ API для Yandex maps'
+REACT_APP_GEOCODING_SERVICE_API_KEY='ключ API для Yandex maps'
 
 Так же для корректной работы карт нужно добавить в разметку ссылку на следующий файл(или скачать его)
 
